@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teodora's Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+        <style>
+        body {
+            background-image: url(foto2/awan2.jpg);
+            /* background-repeat: no-repeat; */
+            background-size: 2800px 1500px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!-- side navigation -->
+        <div class="sidenav">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Hobby.html">Hobby</a></li>
+            <li><a href="Friends.html">Friends</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </div>
+
+        <div class="main" style="margin-top:60px">
+            <h1 class="kontak"><b>Contact</b></h1>
+            <p style="font-family: Georgia;">Let's get in touch! Hit me up :)</p>
+            <form action="proses.html" method="get">
+              <div class="form">
+                <label style="font-size: 25px; font-family:'Gill Sans';">Name</label>
+                <input class="formnama" type="text" name="Name" required>
+              </div>
+              <div class="form">
+                <label style="font-size: 25px; font-family: 'Gill Sans';">Email</label>
+                <input class="formemail" type="text" name="Email" required>
+              </div>
+              <div class="form">
+                <label style="font-size: 25px; font-family: 'Gill Sans';">Message</label>
+                <input class="formmessage" type="text" name="Message" required>
+              </div>
+              <br>
+              <button type="submit" class="button">Send Message</button>
+            </form>  
+          </div>
+
+</body>
+</html>
